@@ -1,1 +1,4 @@
 # CollectorMousetrackerPublic
+
+Collector hosts experiments by combining the media files (generally hosted on dropbox), lists and html code. The resources to run the current mousetracking task can be found at (Github repository here). Collector is designed so that the code for tasks is reliant on very few functions specific to Collector. This facilitation of generic code is to help users make use of code on platforms other than Collector if they choose to. The code specifically is used to create “trialtypes”, which control what happens during a trial. For this study, a mousetracking trialtype was written in html code
+For experiments using media (pictures, audio and videos), such as mousetracking experiments, Collector buffers the media for 5 trials in advance. This helps prevent lag of the browser loading a picture from a website (such as dropbox), disrupting task performance
